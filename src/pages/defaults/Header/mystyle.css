@@ -1,0 +1,127 @@
+.app-header .app-header-top {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.app-header .app-header-top img {
+    margin-top: 10px;
+}
+
+.app-header-menu {
+    width: 100%;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+}
+
+.app-header-menu .navbar {
+    width: 100%;    
+}
+
+.app-header-menu .navbar-nav .nav-item a {
+    color: white;
+}
+
+.app-header-social {
+    float: left;
+    margin-left: 120px;
+    margin-top: 25px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.app-header-social div {
+    display: inline;
+    margin-left: 10px;
+}
+
+.app-header-social i {
+    margin: 5px;
+}
+
+.app-header-social p {
+    display: inline;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.app-header-search {
+    float: right;
+    display: inline-flex;
+    margin-right: 120px;
+    margin-top: 32px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.app-header-search i {
+    margin-left: 70px;
+}
+
+.app-header-search p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px; 
+    margin-bottom: 0px;  
+}
+
+/* .carousel-1 {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 33.73%), 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url("../../../lib/Image/CastorHome.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: round;
+    width: 100%;
+}
+
+.carousel-2 {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 33.73%), 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url("../../../lib/Image/PolluxHome2.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: round;
+    width: 100%;
+}
+
+.carousel-3 {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 33.73%), 
+                linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url("../../../lib/Image/Saltus.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: round;
+    width: 100%;
+} */
+
+/* .app-header-carousel-01 {
+    width: 100%;
+
+   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 33.73%), 
+   linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+   url("../../../lib/Image/CastorHome.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: round;
+}
+
+.app-header-carousel-02 {
+
+   background-image: url("../../../lib/Image/PolluxHome2.jpg");
+}
+
+.app-header-carousel-03 {
+    background-image: ("../../../lib/Image/Saltus.jpg")
+} */
