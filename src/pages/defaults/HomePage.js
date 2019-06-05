@@ -3,6 +3,8 @@ import Content from './../../components/Content';
 
 import ContentComponent from './ContentComponent'
 
+import './homepagestyle.css'
+
 class HomePage extends React.Component {
     buildContent() {
         let data = [];
@@ -10,6 +12,7 @@ class HomePage extends React.Component {
         data.push(<ContentComponent key="01" />)
         return data;
     }
+    
     render() {
         return (
             <div className="app-home-page">

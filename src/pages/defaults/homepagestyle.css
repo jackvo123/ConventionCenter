@@ -1,0 +1,90 @@
+.app-home-page .app-content .container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: contents;
+}
+
+.app-content-component .app-container .row1 {
+    height: 370px;
+    width: 100%;
+}
+
+.app-content-component .app-container .row1 p {
+    position: absolute;
+    width: 965px;
+    height: 120px;
+    left: calc(50% - 965px/2 - 0.5px);
+    margin-top: 125px;
+
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.app-content-component .app-container .row2 {
+    height: 835px;
+    background-color: #F7F4F2;
+}
+
+.app-content-component .app-container .row2 .col1 {
+    display: grid;
+}
+
+.app-content-component .app-container .row2 .col1 img {
+    width: 450px;
+    height: 565px;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+
+.app-content-component .app-container .row2 .col2 {
+    padding-right: 235px;
+    margin-top: 200px;
+}
+
+.app-content-component .app-container .row2 .col2 h2 {
+    display: flex;
+    height: 45px;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.app-content-component .app-container .row2 .col2 h3 {
+    display: flex;
+    height: 50px;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+}
+
+.app-content-component .app-container .row2 .col2 p {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.app-content-component .app-container .row2 .col2 button {
+    width: 185px;
+    height: 50px;
+    display: block;
+    background-color: #ED6623;
+}
+
+
+
+
