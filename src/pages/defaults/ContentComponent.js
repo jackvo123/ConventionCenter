@@ -1,16 +1,16 @@
 import React from 'react';
 
-import { Container, Row, Col } from "react-bootstrap";
-
 class ContentComponent extends React.Component {
     render() {
         return (
             <div className="app-content-component">
                 <div className="app-container">
-                    <div class="row row1">
-                        <p>Chỉ cần chia sẻ với chúng tôi ý tưởng của bạn, GEM Center sẽ tạo điều kiện thuận lợi nhất để mong muốn của bạn có thể trở thành hiện thực.</p>
+                    <div className="row row1">
+                         
+                        <p>Chỉ cần chia sẻ với chúng tôi ý tưởng của bạn, <br/> GEM Center sẽ tạo điều kiện thuận lợi nhất để mong muốn của bạn có thể <br/> trở thành hiện thực.</p>
+                         
                     </div>
-                    <div class="row row2">
+                    <div className="row row2">
                         <div className="col-md-6 col1">
                                 <img className="home1" src="images/sanh1.jpg"></img>
                         </div>
