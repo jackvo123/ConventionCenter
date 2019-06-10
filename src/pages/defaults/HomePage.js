@@ -5,9 +5,13 @@ import ContentComponent from './ContentComponent'
 
 import ExploreComponent from '../../components/ExploreComponent';
 
+import ServiceComponent from '../../components/ServiceComponent';
+
 import './homepagestyle.css'
 
 import '../../components/css/ExploreComponent.css'
+
+import '../../components/css/ServiceComponent.css'
 
 class HomePage extends React.Component {
     buildContent() {
@@ -15,6 +19,7 @@ class HomePage extends React.Component {
 
         data.push(<ContentComponent key="01" />)
         data.push(<ExploreComponent key="02" />)
+        data.push(<ServiceComponent key="03" />)
         return data;
     }
     
