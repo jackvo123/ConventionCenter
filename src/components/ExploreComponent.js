@@ -1,5 +1,7 @@
 import React from 'react';
 
+import "./css/ExploreComponent.css";
+
 class ExploreComponent extends React.Component {
     render() {
         return (
