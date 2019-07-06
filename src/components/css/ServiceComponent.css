@@ -62,8 +62,9 @@
     line-height: 35px;
     text-align: justify;
     color: rgba(0, 0, 0, 0.7);
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
 .app-service-component .app-individual-row button {
@@ -79,7 +80,7 @@
 }
 
 .app-service-component .app-individual-row .app-service-col {
-    padding: 0px 135px 0px 0px;
+    padding: 0px 135px 0px 100px;
 }
 
 .app-service-component .app-company-row {
@@ -109,6 +110,8 @@
     color: rgba(0, 0, 0, 0.7);
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 100%;
+    float: right;
 }
 
 .app-service-component .app-company-row button {
@@ -124,19 +127,21 @@
 }
 
 .app-service-component .app-company-row .app-service-col {
-    padding: 0px 0px 0px 135px;
+    padding: 0px 100px 0px 135px;
 }
 
 .app-service-component .app-individual-row img {
-    height: 380px;
-    width: 515px;
+    margin-right: 60px;
+    width: 590px;
+    height: 400px;
     border: 1px solid black;
     padding: 10px;
 }
 
 .app-service-component .app-company-row img {
-    height: 380px;
-    width: 515px;
+    margin-left: 60px;
+    width: 590px;
+    height: 400px;
     border: 1px solid black;
     padding: 10px;
 }
