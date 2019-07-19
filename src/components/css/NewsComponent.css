@@ -1,0 +1,87 @@
+.app-news-component {
+    width: 100%;
+    background-color: #F7F4F2;
+}
+
+.app-news-component .app-container .app-news-row {
+    margin-top: 20vh;
+}
+
+.app-news-component .app-container .app-news-row .news-item-content {
+    margin-bottom: 20px;
+    width: 75%;
+    border-left: 4px solid;
+    display: inline-block;
+}
+
+.app-news-component .app-container .app-news-row .news-item-content h3 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.app-news-component .app-container .app-news-row .news-item-content h5 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.app-news-component .app-container .app-news-content {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.app-news-component .app-container h3 {
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.app-news-component .app-container h5 {
+    font-family: Playfair Display;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.app-news-component .app-container h4 {
+    display: -webkit-inline-box;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.app-news-component .app-container p {
+    display: -webkit-inline-box;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.app-news-component .app-container img {
+    width: 75%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.app-news-component .app-container button {
+    width: 185px;
+    height: 50px;
+    background-color: #ED6623;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: none;
+}
